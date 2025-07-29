@@ -110,7 +110,7 @@ Generic embedding can retrieve bad results (for instance, "IP" in legal might no
 
 ### 3. Vector Database Indexing
 
-HNSW is the industry standard.
+[HNSW](https://en.wikipedia.org/wiki/Hierarchical_navigable_small_world) (Hierarchical Navigable Small World) is an indexing and search technique used in many vector databases. It has advantages in performing well for data with many dimensions - such as vectors - helping vector searches perform well while seeking semantically similar results to include as context along with the users prompt.
 
 ## Relevance and Quality Control
 
